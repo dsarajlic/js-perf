@@ -20,3 +20,7 @@ function sum2(obj) {
       return sum + parseFloat(obj[key]);
     }, 0);
 }
+
+// For within the test-runner -- to run above tests
+sum1( obj );
+sum2( obj );
