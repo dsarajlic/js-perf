@@ -9,7 +9,6 @@ for (var i = 0; i < 10000; ++i) {
 var c;
 
 // For within the test-runner -- to run above tests
-
 c = a[ Math.round( Math.random() * a.length ) ];
 
 c = o[ Math.round( Math.random() * a.length ) ];
