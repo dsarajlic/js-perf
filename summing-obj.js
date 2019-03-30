@@ -1,5 +1,5 @@
-var obj = {
-  a: 1,
+var sample = {
+  a: 1, 
   b: 2,
   c: 3
 };
@@ -22,5 +22,5 @@ function sum2(obj) {
 }
 
 // For within the test-runner -- to run above tests
-sum1( obj );
-sum2( obj );
+sum1( sample );
+sum2( sample );
